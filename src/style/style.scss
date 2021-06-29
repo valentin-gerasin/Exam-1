@@ -8,6 +8,10 @@
     src: url(fonts/Icon-font-7-stroke-PIXEDEN-v-1.2.0/SVG);
 }
 
+* {
+    outline: none;
+}
+
 html, body {
     height: 100%;
 }
@@ -17,7 +21,6 @@ html, body {
     background-image: url(images/header-bg.png);
     background-size: cover;
     position: relative;
-
 
     &__container {
         display: flex;
@@ -715,6 +718,7 @@ html, body {
         }
     }
     .section-choose {
+
         .section-choose-info {
             display: flex;
             flex-direction: column;
@@ -749,6 +753,7 @@ html, body {
         display: none;
     }
     .section-spain-first {
+
         .section-spain-first__container {
             max-width: 1110px;
             width: 100%;
@@ -782,6 +787,7 @@ html, body {
         }
     }
     .section-spain-second {
+
         .section-spain-second__container {
             max-width: 1110px;
             width: 100%;
@@ -845,6 +851,7 @@ html, body {
 
 @media screen and (max-width:920px){
     .section-testimonial {
+
         .section-testimonial__info {
             flex-direction: column;
             justify-content: center;
@@ -901,8 +908,10 @@ html, body {
     }
 
     .header-nav__list-item:hover {
-        padding-top: 10px;
+        padding-top: 0px;
+        color: #333333;
     }
+    
     .section-choose {
 
         .section-choose__info {
@@ -976,10 +985,6 @@ html, body {
     .header-nav__list {
         max-width: 260px;
         flex-wrap: wrap;
-
-        &-item:hover {
-            padding-top: 0px;
-        }
     }
 }
 
@@ -1005,7 +1010,9 @@ html, body {
     }
 
     .section-choose {
+
         .section-choose__images {
+            
             .section-choose__images-first {
                 max-width: 280px;
                 width: 100%;

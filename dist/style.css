@@ -56,6 +56,10 @@ table {
   src: url(fonts/Icon-font-7-stroke-PIXEDEN-v-1.2.0/SVG);
 }
 
+* {
+  outline: none;
+}
+
 html, body {
   height: 100%;
 }
@@ -918,7 +922,8 @@ html, body {
     padding: 0 10px;
   }
   .header-nav__list-item:hover {
-    padding-top: 10px;
+    padding-top: 0px;
+    color: #333333;
   }
   .section-choose .section-choose__info {
     margin: 0 auto;
@@ -982,9 +987,6 @@ html, body {
   .header-nav__list {
     max-width: 260px;
     flex-wrap: wrap;
-  }
-  .header-nav__list-item:hover {
-    padding-top: 0px;
   }
 }
 
