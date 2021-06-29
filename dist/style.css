@@ -83,7 +83,7 @@ html, body {
 }
 
 .header__title {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 48px;
   font-weight: 700;
   color: #FFFFFF;
@@ -92,7 +92,7 @@ html, body {
 }
 
 .header__text {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
   font-weight: 400;
   color: #FFFFFF;
@@ -113,7 +113,7 @@ html, body {
 }
 
 .header .header-search-bar::placeholder {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #A0A0A0;
@@ -158,7 +158,7 @@ html, body {
 
 .header-search-button__text {
   color: #FFFFFF;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -190,7 +190,7 @@ html, body {
 
 .header-scroll__text {
   width: 100px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #E7ECF0;
@@ -234,7 +234,7 @@ html, body {
 }
 
 .header-nav__title {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #FFFFFF;
@@ -251,7 +251,7 @@ html, body {
 }
 
 .header-nav__list-item {
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-size: 14px;
   font-weight: 400;
   cursor: pointer;
@@ -285,7 +285,7 @@ html, body {
 
 .section-choose .section-choose-info__title {
   color: #FFFFFF;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-size: 36px;
   font-weight: 400;
   padding-top: 203px;
@@ -295,7 +295,7 @@ html, body {
 
 .section-choose .section-choose-info__text {
   color: #FFFFFF;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -311,7 +311,7 @@ html, body {
   text-decoration: none;
   color: #FFFFFF;
   background-color: #5474FD;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -387,7 +387,7 @@ html, body {
 
 .section-works__text {
   color: #FFFFFF;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-size: 36px;
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -431,7 +431,7 @@ html, body {
 
 .section-spain-first__title-first {
   color: #FFFFFF;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   margin-left: 30px;
@@ -442,7 +442,7 @@ html, body {
 
 .section-spain-first__title-second {
   color: #FFFFFF;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   margin-left: 30px;
@@ -452,7 +452,7 @@ html, body {
 }
 
 .section-spain-first__text {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #FFFFFF;
@@ -476,7 +476,7 @@ html, body {
   max-width: 225px;
   width: 100%;
   min-height: 60px;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -522,7 +522,7 @@ html, body {
 
 .section-spain-second__title-first {
   color: #FFFFFF;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   margin-left: 30px;
@@ -533,7 +533,7 @@ html, body {
 
 .section-spain-second__title-second {
   color: #FFFFFF;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   margin-left: 30px;
@@ -543,7 +543,7 @@ html, body {
 }
 
 .section-spain-second__text {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #FFFFFF;
@@ -567,7 +567,7 @@ html, body {
   max-width: 225px;
   width: 100%;
   min-height: 60px;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -600,7 +600,7 @@ html, body {
 }
 
 .section-testimonial__title {
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-size: 36px;
   font-weight: 400;
   text-align: center;
@@ -629,7 +629,7 @@ html, body {
 }
 
 .section-testimonial-review__title {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   color: #FFFFFF;
@@ -638,7 +638,7 @@ html, body {
 }
 
 .section-testimonial-review__text {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   max-width: 551px;
   line-height: 26px;
@@ -671,7 +671,7 @@ html, body {
 }
 
 .footer__title {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #FFFFFF;
@@ -680,7 +680,7 @@ html, body {
 }
 
 .footer__text {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #FFFFFF;
@@ -985,7 +985,6 @@ html, body {
   }
   .header-nav__list-item:hover {
     padding-top: 0px;
-    color: #333333;
   }
 }
 
@@ -1019,6 +1018,9 @@ html, body {
     width: 100%;
     max-height: 176px;
     height: 100%;
+  }
+  .section-testimonial .fa-quote-left {
+    top: 80px;
   }
   .section-testimonial-review {
     padding: 20px;

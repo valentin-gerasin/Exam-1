@@ -35,7 +35,7 @@ html, body {
     }
 
     &__title {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 48px;
         font-weight: 700;
         color: $text-color-white;
@@ -44,7 +44,7 @@ html, body {
     }
 
     &__text {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 22px;
         font-weight: 400;
         color: $text-color-white;
@@ -65,7 +65,7 @@ html, body {
     }
 
     .header-search-bar::placeholder {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 14px;
         font-weight: 400;
         color: #A0A0A0;
@@ -90,7 +90,7 @@ html, body {
         max-width: 150px;
         width: 100%;
         min-height: 60px;
-        background-color: #5474FD;
+        background-color: $button-back-color;
         border: 2px solid $text-color-white;
         cursor: pointer;
         transition: background 0.5s ease;
@@ -110,7 +110,7 @@ html, body {
 
     &-search-button__text {
         color: $text-color-white;
-        font-family: 'Aleo', serif;
+        font-family: $font-aleo;
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 1px;
@@ -141,7 +141,7 @@ html, body {
 
         &__text {
         width: 100px;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 14px;
         font-weight: 400;
         color: #E7ECF0;
@@ -167,7 +167,7 @@ html, body {
 
     &-nav {
         min-height: 80px;
-        background-color: #5474FD;
+        background-color: $button-back-color;
         background-size: cover;
         width: 100%;
         position: absolute;
@@ -186,7 +186,7 @@ html, body {
         }
 
         &__title {
-            font-family: 'Josefin Sans', sans-serif;
+            font-family: $font-josefin;
             font-size: 24px;
             font-weight: 700;
             color: $text-color-white;
@@ -202,7 +202,7 @@ html, body {
             width: 100%;
 
             &-item {
-                font-family: 'Aleo', serif;
+                font-family: $font-aleo;
                 font-size: 14px;
                 font-weight: 400;
                 cursor: pointer;
@@ -238,7 +238,7 @@ html, body {
 
     .section-choose-info__title {
         color: $text-color-white;
-        font-family: 'Aleo', serif;
+        font-family: $font-aleo;
         font-size: 36px;
         font-weight: 400;
         padding-top: 203px;
@@ -248,7 +248,7 @@ html, body {
 
     .section-choose-info__text {
         color: $text-color-white;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
@@ -263,8 +263,8 @@ html, body {
         align-items: center;
         text-decoration: none;
         color: $text-color-white;
-        background-color: #5474FD;
-        font-family: 'Aleo', serif;
+        background-color: $button-back-color;
+        font-family: $font-aleo;
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 1px;
@@ -276,11 +276,11 @@ html, body {
     }
 
     &__link:hover {
-        background-color: #5A6FB5;
+        background-color: $link-color;
     }
 
     &__link:focus {
-        background-color: #5A6FB5;
+        background-color: $link-color;
     }
 
     &__images {
@@ -340,7 +340,7 @@ html, body {
 
     &__text {
         color: $text-color-white;
-        font-family: 'Aleo', serif;
+        font-family: $font-aleo;
         font-size: 36px;
         font-weight: 400;
         letter-spacing: 0.5px;
@@ -385,7 +385,7 @@ html, body {
 
     &__title-first {
         color: $text-color-white;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 20px;
         font-weight: 400;
         margin-left: 30px;
@@ -396,7 +396,7 @@ html, body {
 
     &__title-second {
         color: $text-color-white;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 20px;
         font-weight: 400;
         margin-left: 30px;
@@ -406,7 +406,7 @@ html, body {
     }
 
     &__text {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 15px;
         font-weight: 400;
         color: $text-color-white;
@@ -430,7 +430,7 @@ html, body {
         max-width: 225px;
         width: 100%;
         min-height: 60px;
-        font-family: 'Aleo', serif;
+        font-family: $font-aleo;
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 2px;
@@ -439,12 +439,12 @@ html, body {
 
     &__link:hover {
         background-image: none;
-        background-color: #5A6FB5;
+        background-color: $link-color;
     }
 
     &__link:focus {
         background-image: none;
-        background-color: #5A6FB5;
+        background-color: $link-color;
     }
 
 }
@@ -477,7 +477,7 @@ html, body {
 
     &__title-first {
         color: $text-color-white;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 20px;
         font-weight: 400;
         margin-left: 30px;
@@ -488,7 +488,7 @@ html, body {
 
     &__title-second {
         color: $text-color-white;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 20px;
         font-weight: 400;
         margin-left: 30px;
@@ -498,7 +498,7 @@ html, body {
     }
 
     &__text {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 15px;
         font-weight: 400;
         color: $text-color-white;
@@ -522,7 +522,7 @@ html, body {
         max-width: 225px;
         width: 100%;
         min-height: 60px;
-        font-family: 'Aleo', serif;
+        font-family: $font-aleo;
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 2px;
@@ -531,12 +531,12 @@ html, body {
 
     &__link:hover {
         background-image: none;
-        background-color: #5A6FB5;
+        background-color: $link-color;
     }
 
     &__link:focus {
         background-image: none;
-        background-color: #5A6FB5;
+        background-color: $link-color;
     }
 }
 
@@ -555,7 +555,7 @@ html, body {
     }
 
     &__title {
-        font-family: 'Aleo', serif;
+        font-family: $font-aleo;
         font-size: 36px;
         font-weight: 400;
         text-align: center;
@@ -584,7 +584,7 @@ html, body {
     }
 
     &-review__title {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 20px;
         font-weight: 400;
         color: $text-color-white;
@@ -593,7 +593,7 @@ html, body {
     }
 
     &-review__text {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 14px;
         max-width: 551px;
         line-height: 26px;
@@ -605,7 +605,7 @@ html, body {
     }
 
     .fa-quote-left {
-        color: #5A6FB5;
+        color: $link-color;
         position: absolute;
         top: 101px;
     }
@@ -626,7 +626,7 @@ html, body {
     }
 
     &__title {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 24px;
         font-weight: 700;
         color: $text-color-white;
@@ -635,7 +635,7 @@ html, body {
     }
 
     &__text {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: $font-josefin;
         font-size: 16px;
         font-weight: 400;
         color: $text-color-white;
@@ -670,7 +670,7 @@ html, body {
     }
 
     .fa-linkedin {
-        color: #5A6FB5;
+        color: $link-color;
         cursor: pointer;
     }
 
@@ -979,7 +979,6 @@ html, body {
 
         &-item:hover {
             padding-top: 0px;
-            color: #333333;
         }
     }
 }
@@ -1022,7 +1021,11 @@ html, body {
             }
         }
     }
-
+    .section-testimonial {
+        .fa-quote-left {
+            top: 80px;
+        }
+    }
     .section-testimonial-review {
         padding: 20px;
     }
